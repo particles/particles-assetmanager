@@ -1,0 +1,17 @@
+html
+  head
+    //INJECT:styles:default
+    link(rel='stylesheet', href='http://this_is_a_url/mmm.css')
+    link(rel='stylesheet', href='/public/build/default.min.css')
+    //END INJECT
+  body
+    div
+      //INJECT:viewContributions:default
+      include layouts/general.jade
+      //END INJECT
+    div
+      //INJECT:scripts:default
+      script(src='http://this_is_a_url/ok.js')
+      script(src='/public/build/default.min.js')
+      //END INJECT
+

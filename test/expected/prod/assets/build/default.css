@@ -1,0 +1,10 @@
+.aclass {
+  background-color: #000000;
+}
+.another-class {
+  background-color: white;
+}
+
+@font-face {
+  src: url("../lib/bootstrap/fonts/testfont.eot");
+}

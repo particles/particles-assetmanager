@@ -1,0 +1,34 @@
+{
+  "generatedDir": "${appRoot}/test/tmp",
+  "resources": {
+    "viewsDir": "${generatedDir}/views/",
+    "assetsDir": "${generatedDir}/assets/",
+    "bundlesSubDir": "build",
+    "staticUrlRoot": "/public/"
+  },
+  "containers": {
+    "default": {
+      "particles": ["${appRoot}/test/particles/*", "${appRoot}/lib"]
+    }
+  },
+  "logger": {
+    "root": {
+      "level": "info",
+      "streams": [
+        {
+          "level": "debug",
+          "stream": "process.stdout",
+          "streamOptions": {
+            "mode": "short", "prettyPrint": true
+          }
+        }
+      ]
+    },
+    //"assetmanager": {
+    //  "level": "debug"
+    //}//,
+    "scatter": {
+      "level": "debug"
+    }
+  }
+}

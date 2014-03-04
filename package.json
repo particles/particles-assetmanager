@@ -1,0 +1,55 @@
+{
+  "name": "particles-assetmanager",
+  "description": "Asset manager for the Particles platform, based on gulp",
+  "version": "0.1.0",
+  "homepage": "https://github.com/particles/particles-assetmanager",
+  "author": {
+    "name": "Mario Casciaro"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/particles/particles-assetmanager.git"
+  },
+  "bugs": {
+    "url": "https://github.com/particles/particles-assetmanager/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/particles/particles-assetmanager/blob/master/LICENSE-MIT"
+    }
+  ],
+  "scripts": {
+    "test": "node_modules/.bin/mocha test/*.js --reporter spec -t 5000"
+  },
+  "dependencies": {
+    "particles": "~0.3.0",
+    "gulp": "~3.5.1",
+    "gulp-util": "~2.2.14",
+    "gulp-filter": "~0.3.0",
+    "gulp-less": "~1.2.1",
+    "through2": "~0.4.1",
+    "lodash": "~2.4.1",
+    "object-path": "~0.1.2",
+    "multistream-merge": "~0.1.0",
+    "gulp-clone": "~0.1.0",
+    "gulp-multinject": "~0.1.0",
+    "glob": "~3.2.8",
+    "growl": "~1.7.0",
+    "gulp-concat": "~2.1.7",
+    "gulp-concat-css": "~0.1.3",
+    "gulp-uglify": "~0.2.1",
+    "gulp-rename": "~1.1.0",
+    "gulp-minify-css": "~0.3.0",
+    "gulp-order": "~1.0.5"
+  },
+  "devDependencies": {
+    "rimraf": "~2.2.2",
+    "chai": "~1.9.0",
+    "mocha": "~1.17.1"
+  },
+  "peerDependencies": {
+    "gulp": "~3.5.2"
+  },
+  "keywords": []
+}
