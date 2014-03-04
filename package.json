@@ -1,7 +1,7 @@
 {
   "name": "particles-assetmanager",
   "description": "Asset manager for the Particles platform, based on gulp",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "homepage": "https://github.com/particles/particles-assetmanager",
   "author": {
     "name": "Mario Casciaro"
@@ -41,10 +41,10 @@
     "gulp-uglify": "~0.2.1",
     "gulp-rename": "~1.1.0",
     "gulp-minify-css": "~0.3.0",
-    "gulp-order": "~1.0.5"
+    "gulp-order": "~1.0.5",
+    "rimraf": "~2.2.2"
   },
   "devDependencies": {
-    "rimraf": "~2.2.2",
     "chai": "~1.9.0",
     "mocha": "~1.17.1"
   },
