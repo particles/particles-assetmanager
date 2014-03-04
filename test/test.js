@@ -87,7 +87,7 @@ describe('assetmanager build (production mode)',function() {
 });
 
 
-describe.skip('assetmanager clean',function(done) {
+describe('assetmanager clean',function(done) {
 
   var particlesAssetManager;
   before(function() {
