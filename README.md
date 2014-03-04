@@ -6,6 +6,8 @@
 
 > The Asset Manager for the Particles platform
 
+Built on gulp.
+
 ## License
 
 [MIT](http://en.wikipedia.org/wiki/MIT_License) @ Mario Casciaro
