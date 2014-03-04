@@ -1,0 +1,18 @@
+html
+  head
+    //INJECT:styles:default
+    link(rel='stylesheet', href='/public/testless.css')
+    link(rel='stylesheet', href='/public/test.css')
+    link(rel='stylesheet', href='http://this_is_a_url/mmm.css')
+    //END INJECT
+  body
+    div
+      //INJECT:viewContributions:default
+      include layouts/general.jade
+      //END INJECT
+    div
+      //INJECT:scripts:default
+      script(src='/public/script.js')
+      script(src='http://this_is_a_url/ok.js')
+      //END INJECT
+
