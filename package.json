@@ -32,7 +32,7 @@
     "lodash": "~2.4.1",
     "object-path": "~0.1.2",
     "multistream-merge": "~0.1.0",
-    "gulp-clone": "~0.1.0",
+    "gulp-clone": "~1.0.0",
     "gulp-multinject": "~0.1.0",
     "glob": "~3.2.8",
     "growl": "~1.7.0",
